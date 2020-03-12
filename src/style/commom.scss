@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html,
+#app {
+  width: 100%;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.f-col {
+  flex-direction: column;
+}
+.j-center {
+  justify-content: center;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-around {
+  justify-content: space-around;
+}
+.a-center {
+  align-items: center;
+}
+.f-1 {
+  flex: 1;
+}
+.drag-dialog__header {
+  .el-dialog__header {
+    cursor: move !important;
+  }
+}
